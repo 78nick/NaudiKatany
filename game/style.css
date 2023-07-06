@@ -48,3 +48,21 @@ main {
    scale: 1.1;
    transition: 0.2s;
 }
+
+.game-header {
+   display: flex;
+   align-items: center;
+}
+
+.reset {
+   width: 145px;
+}
+
+.lvl {
+   flex-grow: 1;
+   text-align: left;
+}
+
+.null {
+   padding-top: 0;
+}
