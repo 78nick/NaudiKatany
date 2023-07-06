@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Comfortaa', cursive;
+   text-align: center;
+
+
+
+}
+
+body {
+   background-image: url(./Временый\ фон.jpg);
+   background-size: cover;
+   color: azure;
+}
+
+header {
+   font-size: 32px;
+   padding: 33px;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 33px;
+   font-size: 22px;
+}
+
+.menu {
+   margin: auto;
+}
+
+.btn {
+   background-color: rgba(209, 202, 3, 0.932);
+   color: rgb(12, 85, 12);
+   margin: 22px auto;
+   padding: 8px;
+   width: 200px;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: 0.2s;
+}
+
+.btn:hover {
+   scale: 1.1;
+   transition: 0.2s;
+}
